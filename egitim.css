@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Square Peg', cursive;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .container {
+    width: 1024px;
+    height: 2400px;
+    margin: auto;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1024px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  
+  .slogan {
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #4a52cd;
+    padding-bottom: 50px;
+    padding-left: 150px;
+  }
+  
+  .navbar-center-side {
+    padding: 10px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #4a52cd;
+    width: 1024px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .navbar-center-side ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar-center-side ul li {
+    padding: 20px;
+    font-size: 17px;
+  }
+  
+  .navbar-center-side ul li a {
+    text-decoration: none;
+    font: italic;
+    color: wheat;
+  }
+  
+  .navbar-center-side ul li:hover {
+    background-color: wheat;
+    color: #4a52cd;
+    border-radius: 3px;
+  }
+  
+  .navbar-center-side ul li:hover a {
+    color: #4a52cd;
+  }
+
+  .footers {
+    background-image: url("sky.jpg");
+    height: 140px;
+    width: 1024px;
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footers a {
+    text-decoration: none;
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 10px;
+  }
+
+  .forhr{
+    width: 900px;
+}
